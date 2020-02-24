@@ -1,9 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
 .container{
     margin-bottom: 75px;
 }
 .card{
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 4px 4px 10px gray;
 }
 .button:hover{
@@ -22,3 +29,51 @@
     border: none;
     background-color: white;
 }
+footer{
+    background-color: lightslategray;
+    color: linen;
+    text-align: center;
+}
+
+.carousel-indicators li{
+    background-color: #cecece;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+}
+.carousel-indicators li.active{
+    width: 25px;
+    background-color: chocolate;
+    
+}
+.card-deck{
+    margin-bottom: 50px;
+}
+.card-footer{
+  
+    text-align: center;
+}
+.last-part-titale{
+    text-align: center;
+    border: 3px;
+}
+.hr{
+    width: 60px;
+    height: 5px;
+    background-color:  chocolate;
+    border-radius: 5px;
+}
+
+
+
+.last{
+   
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+   
+    justify-content: center;
+}
+
+
+
+   
